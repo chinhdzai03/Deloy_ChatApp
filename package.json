@@ -1,21 +1,21 @@
 {
-  "name": "chatk_backend",
+  "name": "chatapp",
   "version": "0.1.0",
-  "description": "backend for chatk web app",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Killian0812/ChatK_backend.git"
+    "url": "git+https://github.com/chinhdzai03/Deloy_ChatApp.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Killian0812/ChatK_backend/issues"
+    "url": "https://github.com/chinhdzai03/Deloy_ChatApp/issues"
   },
-  "homepage": "https://github.com/Killian0812/ChatK_backend#readme",
+  "homepage": "",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "cookie-parser": "^1.4.6",
