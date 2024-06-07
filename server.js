@@ -67,7 +67,7 @@ app.get(/^\/(?!api).*/, function (req, res) {
 const port = process.env.PORT;
 const ip = process.env.IP;
 
-server.listen(port, ip, () => {
+server.listen(port, '0.0.0.0', () => {
     console.log(`Server is running at ${ip}:${port}`);
 })
 
