@@ -9,8 +9,8 @@ require('dotenv').config();
 const { app, server } = require('./socket');
 
 app.use(cors({
-    // origin: 'https://localhost:3000'
-    origin: 'https://deloy-chatapp.onrender.com'
+    origin: 'https://localhost:3000'
+    // origin: 'https://deloy-chatapp.onrender.com'
 }));
 
 // middlewares
