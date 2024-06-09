@@ -12,7 +12,6 @@ const sendRecoverEmail = async (email, username, recoverUrl) => {
 
     const htmlContent = `
         <div style="background-color: #f4f4f4; padding: 20px;">
-            <img src="https://ngcuong0812.id.vn/appicon.png" alt="ChatK Logo" style="display: block; margin: 0 auto; width: 150px; height: auto;">
             <div style="background-color: #ffffff; padding: 20px; border-radius: 10px; margin-top: 20px;">
                 <p style="font-size: 18px;">Hello ${username},</p>
                 <p>We have received a request to recover your account.</p>
@@ -26,7 +25,7 @@ const sendRecoverEmail = async (email, username, recoverUrl) => {
     `;
 
     const mailOptions = {
-        from: 'chatk.enterprise@gmail.com',
+        from: 'chatk.tdc@gmail.com',
         to: email,
         subject: 'ChatK | Recover your account',
         html: htmlContent
